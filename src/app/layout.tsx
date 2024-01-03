@@ -12,15 +12,18 @@ export default function RootLayout({
   return (
     <html lang="en" className={inter.className}>
       <body>
-        <!-- Google tag (gtag.js) -->
-<Script async src="https://www.googletagmanager.com/gtag/js?id=G-ML5NCP80D6"></Script>
-<Script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-ML5NCP80D6');
-</Script>
+        <Script
+          src={`https://www.googletagmanager.com/gtag/js?id=G-ML5NCP80D6`}
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+                    window.dataLayer = window.dataLayer || [];
+                    function gtag(){window.dataLayer.push(arguments);}
+                    gtag('js', new Date());
+                    gtag('config', 'G-ML5NCP80D6');
+                  `}
+        </Script>
         {children}
       </body>
     </html>
