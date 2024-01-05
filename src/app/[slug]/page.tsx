@@ -50,20 +50,41 @@ export default async function Page({ params }: Props) {
 
   return (
     <main>
-      <div className="min-h-screen mx-auto max-w-2xl p-4">
-        <h1 className="mx-auto text-3xl md:text-6xl lg:text-6xl font-bold tracking-tighter leading-normal mb-4">
-          {article.name}
-        </h1>
-        <p className="mb-4 text-lg">
-          Posted: {formatDate(article.dateTimeStart)}
-        </p>
-        <Suspense fallback={<p>Loading ...</p>}>
-          <article
-            className="mx-auto content"
-            dangerouslySetInnerHTML={{ __html: article.content }}
-          />
-        </Suspense>
-      </div>
+        <Script src="/qcscript.js" />
+  <div className="min-h-screen mx-auto max-w-2xl p-4">
+    <div id="M918883ScriptRootC1537797"></div>
+    <script src="https://jsc.mgid.com/v/b/vbonews.com.1537797.js" async></script>
+    
+
+    {/* @ QC đầu trang @
+"<style>
+    #M932897ScriptRootC1569683 {
+        min-height: 300px;
+    }
+</style>
+<!-- Composite Start -->
+<div id=""M932897ScriptRootC1569683""></div>
+<script src=""https://jsc.mgid.com/l/o/lovenews.sportsandtravelonline.com.1569683.js"" async></script>
+   
+    {/* <!-- Composite End --> */}
+    
+    <h1 className="mx-auto text-3xl md:text-6xl lg:text-6xl font-bold tracking-tighter leading-normal mb-4">
+      {article.name}
+    </h1>
+    <p className="mb-4 text-lg">
+      Posted: {formatDate(article.dateTimeStart)}
+    </p>
+    <Suspense fallback={<p>Loading ...</p>}>
+      <article
+        className="mx-auto content"
+        dangerouslySetInnerHTML={{ __html: article.content }}
+      />
+    </Suspense>
+  </div>
+  {/* // <!-- Composite Start --> */}
+  <div id="M932897ScriptRootC1569677"></div>
+<script src="https://jsc.mgid.com/l/o/lovenews.sportsandtravelonline.com.1569677.js" async></script>
+  {/* // <!-- Composite End --> */}
     </main>
   );
 }
