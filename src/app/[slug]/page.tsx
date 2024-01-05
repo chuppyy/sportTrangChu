@@ -53,7 +53,7 @@ export default async function Page({ params }: Props) {
         <Script src="/qcscript.js" />
   <div className="min-h-screen mx-auto max-w-2xl p-4">
     <div id="M918883ScriptRootC1537797"></div>
-    <script src="https://jsc.mgid.com/v/b/vbonews.com.1537797.js" async></Script>
+    <script src="https://jsc.mgid.com/v/b/vbonews.com.1537797.js" async></script>
     
 
     <h1 className="mx-auto text-3xl md:text-6xl lg:text-6xl font-bold tracking-tighter leading-normal mb-4">
@@ -69,10 +69,10 @@ export default async function Page({ params }: Props) {
       />
     </Suspense>
   </div>
-  {/* // <!-- Composite Start --> */}
+
   <div id="M932897ScriptRootC1569677"></div>
-<Script src="https://jsc.mgid.com/l/o/lovenews.sportsandtravelonline.com.1569677.js" async></Script>
-  {/* // <!-- Composite End --> */}
+<script src="https://jsc.mgid.com/l/o/lovenews.sportsandtravelonline.com.1569677.js" async></script>
+
     </main>
   );
 }
