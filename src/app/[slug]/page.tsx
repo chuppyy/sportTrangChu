@@ -2,7 +2,7 @@ import { Suspense } from "react";
 
 import { Metadata } from "next";
 import { notFound } from "next/navigation";
-
+import Script from "next/script";
 type Props = {
   params: { slug: string };
 };
@@ -53,21 +53,9 @@ export default async function Page({ params }: Props) {
         <Script src="/qcscript.js" />
   <div className="min-h-screen mx-auto max-w-2xl p-4">
     <div id="M918883ScriptRootC1537797"></div>
-    <script src="https://jsc.mgid.com/v/b/vbonews.com.1537797.js" async></script>
+    <script src="https://jsc.mgid.com/v/b/vbonews.com.1537797.js" async></Script>
     
 
-    {/* @ QC đầu trang @
-"<style>
-    #M932897ScriptRootC1569683 {
-        min-height: 300px;
-    }
-</style>
-<!-- Composite Start -->
-<div id=""M932897ScriptRootC1569683""></div>
-<script src=""https://jsc.mgid.com/l/o/lovenews.sportsandtravelonline.com.1569683.js"" async></script>
-   
-    {/* <!-- Composite End --> */}
-    
     <h1 className="mx-auto text-3xl md:text-6xl lg:text-6xl font-bold tracking-tighter leading-normal mb-4">
       {article.name}
     </h1>
@@ -83,7 +71,7 @@ export default async function Page({ params }: Props) {
   </div>
   {/* // <!-- Composite Start --> */}
   <div id="M932897ScriptRootC1569677"></div>
-<script src="https://jsc.mgid.com/l/o/lovenews.sportsandtravelonline.com.1569677.js" async></script>
+<Script src="https://jsc.mgid.com/l/o/lovenews.sportsandtravelonline.com.1569677.js" async></Script>
   {/* // <!-- Composite End --> */}
     </main>
   );
