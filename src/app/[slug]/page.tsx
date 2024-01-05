@@ -7,7 +7,7 @@ type Props = {
   params: { slug: string };
 };
 
-
+export const runtime = "edge";
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const slug = params.slug;
   const id = slug.slice(slug.lastIndexOf("-") + 1);
