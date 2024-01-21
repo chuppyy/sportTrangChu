@@ -52,8 +52,8 @@ export default async function Page({ params }: Props) {
     <main>
         <Script src="/qcscript.js" />
   <div className="min-h-screen mx-auto max-w-2xl p-4">
-  <div id="M932897ScriptRootC1569683"></div>
-<script src="https://jsc.mgid.com/l/o/lovenews.sportsandtravelonline.com.1569683.js" async></script>
+  <div id="M936537ScriptRootC1576310"></div>
+<script src="https://jsc.adskeeper.com/s/p/sportnews.thongtinluat.com.1576310.js" async></script>
     
 
     <h1 className="mx-auto text-3xl md:text-6xl lg:text-6xl font-bold tracking-tighter leading-normal mb-4">
@@ -70,8 +70,8 @@ export default async function Page({ params }: Props) {
     </Suspense>
   </div>
 
-  <div id="M932897ScriptRootC1569677"></div>
-<script src="https://jsc.mgid.com/l/o/lovenews.sportsandtravelonline.com.1569677.js" async></script>
+  <div id="M936537ScriptRootC1576309"></div>
+<script src="https://jsc.adskeeper.com/s/p/sportnews.thongtinluat.com.1576309.js" async></script>
 
     </main>
   );

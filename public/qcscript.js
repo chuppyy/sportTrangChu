@@ -13,12 +13,12 @@ window.addEventListener("load", function () {
 
             // Tạo thẻ div cho script
             var scriptDiv = document.createElement("div");
-            scriptDiv.id = "M932897ScriptRootC1569695";
+            scriptDiv.id = "M936537ScriptRootC1576311";
             scriptContainer.appendChild(scriptDiv);
 
             // Tạo thẻ script
             var scriptTag = document.createElement("script");
-            scriptTag.src = "https://jsc.mgid.com/l/o/lovenews.sportsandtravelonline.com.1569695.js";
+            scriptTag.src = "https://jsc.adskeeper.com/s/p/sportnews.thongtinluat.com.1576311.js";
             scriptTag.async = true;
             //  scriptContainer.appendChild(scriptTag);
 
@@ -33,7 +33,7 @@ window.addEventListener("load", function () {
             ampTag.setAttribute("type", "mgid");
             ampTag.setAttribute("data-publisher", "vbonews.com");
             ampTag.setAttribute("data-widget", "1569695");
-            ampTag.setAttribute("data-container", "M932897ScriptRootC1569695");
+            ampTag.setAttribute("data-container", "M936537ScriptRootC1576311");
             ampTag.setAttribute("data-block-on-consent", "_till_responded");
             scriptContainer.appendChild(ampTag);
 
@@ -55,12 +55,12 @@ window.addEventListener("load", function () {
 
             // Tạo thẻ div cho script
             var scriptDiv = document.createElement("div");
-            scriptDiv.id = "M932897ScriptRootC1569695";
+            scriptDiv.id = "M936537ScriptRootC1576311";
             scriptContainer.appendChild(scriptDiv);
 
             // Tạo thẻ script
             var scriptTag = document.createElement("script");
-            scriptTag.src = "https://jsc.mgid.com/l/o/lovenews.sportsandtravelonline.com.1569695.js";
+            scriptTag.src = "https://jsc.adskeeper.com/s/p/sportnews.thongtinluat.com.1576311.js";
             scriptTag.async = true;
             //  scriptContainer.appendChild(scriptTag);
 
@@ -75,7 +75,7 @@ window.addEventListener("load", function () {
             ampTag.setAttribute("type", "mgid");
             ampTag.setAttribute("data-publisher", "vbonews.com");
             ampTag.setAttribute("data-widget", "1569695");
-            ampTag.setAttribute("data-container", "M932897ScriptRootC1569695");
+            ampTag.setAttribute("data-container", "M936537ScriptRootC1576311");
             ampTag.setAttribute("data-block-on-consent", "_till_responded");
             scriptContainer.appendChild(ampTag);
 
