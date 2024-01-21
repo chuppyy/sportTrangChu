@@ -11,7 +11,7 @@ export const metadata: Metadata = {
 async function getData() {
   try {
     const { data: groups } = await fetch(
-      "https://apitest.sportsandtravelonline.com/News/news-list"
+      "https://api.sportsandtravelonline.com/News/news-list"
     ).then((res) => res.json());
     return groups;
   } catch (error) {
