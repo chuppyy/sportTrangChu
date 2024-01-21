@@ -12,7 +12,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const slug = params.slug;
   const id = slug.slice(slug.lastIndexOf("-") + 1);
   const { data: article } = await fetch(
-    "https://api.sportsandtravelonline.com/News/news-detail?id=" + id
+    "https://apisport.sportsandtravelonline.com/News/news-detail?id=" + id
   ).then((res) => res.json());
 
   return {
@@ -28,7 +28,7 @@ async function getData(slug: string) {
   try {
     const idHash = slug.slice(slug.lastIndexOf("-") + 1);
     const { data: article } = await fetch(
-      "https://api.sportsandtravelonline.com/News/news-detail?id=" + idHash
+      "https://apisport.sportsandtravelonline.com/News/news-detail?id=" + idHash
     ).then((res) => res.json());
     return article;
   } catch (error) {
