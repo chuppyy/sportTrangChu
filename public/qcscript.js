@@ -1,6 +1,6 @@
 // check width
 window.addEventListener("load", function () {
-    console.log("xxx", window.innerWidth)
+    console.log("xxxsss", window.innerWidth)
     if (window.innerWidth <= 500) {
 
         // Giua bai mgid
