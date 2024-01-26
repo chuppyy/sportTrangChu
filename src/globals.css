@@ -6,7 +6,9 @@ body {
   max-width: 600px;
   margin: 0 auto;
 }
-
+ins.adsbygoogle[data-ad-status="unfilled"] {
+    display: none !important;
+}
 .image {
   display: flex;
   justify-content: center;
