@@ -40,6 +40,7 @@ export default function Page(data: any) {
   src= "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8079422152195086"/>
       <main>
         <Script src="/qcscript.js" />
+        <div className="container-flu details">
  <script
           async
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8079422152195086"
@@ -57,7 +58,7 @@ export default function Page(data: any) {
        
 
           <h1>{article.name}</h1>
-         <div className="container-flu details">
+         
                   <div id="M936537ScriptRootC1576310"></div>
           <script
                       src="https://jsc.adskeeper.com/s/p/sportnews.thongtinluat.com.1576310.js"
