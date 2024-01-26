@@ -34,10 +34,7 @@ export default function Page(data: any) {
                       src="https://jsc.adskeeper.com/s/p/sportnews.thongtinluat.com.1576310.js"
             async
           ></script>
-<div id="M936537ScriptRootC1578547">
-</div>
-<script src="https://jsc.adskeeper.com/s/p/sportnews.thongtinluat.com.1578547.js" async>
-</script>
+
           <h1>{article.name}</h1>
           <p className="mb-4 text-lg">
             Posted: {formatDate(article.dateTimeStart)}
