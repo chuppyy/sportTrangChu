@@ -33,15 +33,15 @@ export default function Page(data: any) {
           gtag('config', 'G-Y23MD9WKC2');
         `}
       </Script>
-{/*       <Script
+      <Script
   id="adsbygoogle-init"
   strategy="afterInteractive"
   crossOrigin="anonymous"
-  src= "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8079422152195086"/> */}
+  src= "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8079422152195086"/>
       <main>
         <Script src="/qcscript.js" />
         <div className="container-flu details">
-{/*  <script
+ <script
           async
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8079422152195086"
           crossOrigin="anonymous"
@@ -53,7 +53,7 @@ export default function Page(data: any) {
      data-ad-slot="6695725073"
      data-ad-format="auto"
      data-full-width-responsive="true"
-    /> */}
+    />
         
         <div id="M936537ScriptRootC1576310"></div>
           <script
