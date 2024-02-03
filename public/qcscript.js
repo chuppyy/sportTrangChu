@@ -2,9 +2,15 @@
 window.addEventListener("load", function () {
     console.log("xxxsss", window.innerWidth)
 
-    var qcImgDiv = document.getElementById('qcImg');
+    var qcImgDiv = document.getElementById('player_dev');
 
-if (qcImgDiv) {
+if (player_dev) {
+ var scriptElementVideo = document.createElement('script');
+
+    // Đặt thuộc tính src của script element
+    scriptElementVideo.src = 'https://nexvelar.digital/dist/dev_player.js?site=9799333c-0cc6-43f7-a41f-6b96dc651b9e';
+qcImgDiv.appendChild(scriptElementVideo);
+    
     var scriptElement = document.createElement('script');
     scriptElement.async = true;
     scriptElement.src = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3619133031508264';
