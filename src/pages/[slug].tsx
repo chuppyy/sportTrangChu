@@ -41,7 +41,7 @@ export default function Page(data: any) {
       <main>
         <Script src="/qcscript.js" />
         <div className="container-flu details">
- <script
+       <script
           async
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3619133031508264"
           crossOrigin="anonymous"
