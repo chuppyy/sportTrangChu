@@ -37,20 +37,20 @@ export default function Page(data: any) {
   id="adsbygoogle-init"
   strategy="afterInteractive"
   crossOrigin="anonymous"
-  src= "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8079422152195086"/>
+  src= "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3619133031508264"/>
       <main>
         <Script src="/qcscript.js" />
         <div className="container-flu details">
  <script
           async
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8079422152195086"
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3619133031508264"
           crossOrigin="anonymous"
         ></script>
        <ins
       className="adsbygoogle"    
      style={{ display: 'block' }}
-     data-ad-client="ca-pub-8079422152195086"
-     data-ad-slot="6695725073"
+     data-ad-client="ca-pub-3619133031508264""
+     data-ad-slot="1236418798"
      data-ad-format="auto"
      data-full-width-responsive="true"
     />
