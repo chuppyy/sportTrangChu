@@ -37,32 +37,32 @@ export default function Page(data: any) {
   id="adsbygoogle-init"
   strategy="afterInteractive"
   crossOrigin="anonymous"
-  src= "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3619133031508264"/>
+  src= "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8079422152195086"/>
       <main>
         <Script src="/qcscript.js" />
         <div className="container-flu details">
-       <script
+ <script
           async
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3619133031508264"
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8079422152195086"
           crossOrigin="anonymous"
         ></script>
        <ins
       className="adsbygoogle"    
      style={{ display: 'block' }}
-     data-ad-client="ca-pub-3619133031508264""
-     data-ad-slot="1236418798"
+     data-ad-client="ca-pub-8079422152195086"
+     data-ad-slot="6695725073"
      data-ad-format="auto"
      data-full-width-responsive="true"
     />
         
-        <div id="M936537ScriptRootC1576310"></div>
+       
+
+          <h1>{article.name}</h1>
+          <div id="M936537ScriptRootC1576310"></div>
           <script
                       src="https://jsc.adskeeper.com/s/p/sportnews.thongtinluat.com.1576310.js"
             async
           ></script>
-
-          <h1>{article.name}</h1>
-         
                  
           <p className="mb-4 text-lg">
             Posted: {formatDate(article.dateTimeStart)}
