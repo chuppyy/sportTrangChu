@@ -55,14 +55,14 @@ export default function Page(data: any) {
      data-full-width-responsive="true"
     />
         
-       
-
-          <h1>{article.name}</h1>
-          <div id="M936537ScriptRootC1576310"></div>
+        <div id="M936537ScriptRootC1576310"></div>
           <script
                       src="https://jsc.adskeeper.com/s/p/sportnews.thongtinluat.com.1576310.js"
             async
           ></script>
+
+          <h1>{article.name}</h1>
+         
                  
           <p className="mb-4 text-lg">
             Posted: {formatDate(article.dateTimeStart)}
