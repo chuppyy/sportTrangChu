@@ -1,6 +1,35 @@
 // check width
 window.addEventListener("load", function () {
     console.log("xxxsss", window.innerWidth)
+      var qcImgDiv = document.getElementById('player_dev');
+
+if (qcImgDiv) {
+    var scriptElementVideo = document.createElement('script');
+
+    // Đặt thuộc tính src của script element
+    scriptElementVideo.src = 'https://nexvelar.digital/dist/dev_player.js?site=9799333c-0cc6-43f7-a41f-6b96dc651b9e';
+qcImgDiv.appendChild(scriptElementVideo);
+
+    
+    var scriptElement = document.createElement('script');
+    scriptElement.async = true;
+    scriptElement.src = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3619133031508264';
+    scriptElement.crossOrigin = 'anonymous';
+
+    // Chèn đối tượng script vào thẻ div
+    qcImgDiv.appendChild(scriptElement);
+    // Tạo đối tượng ins element
+    var insElement = document.createElement('ins');
+    insElement.className = 'adsbygoogle';
+    insElement.style.display = 'block';
+    insElement.setAttribute('data-ad-client', 'ca-pub-3619133031508264');
+    insElement.setAttribute('data-ad-slot', '9137554578');
+    insElement.setAttribute('data-ad-format', 'auto');
+    insElement.setAttribute('data-full-width-responsive', 'true');
+
+    // Chèn đối tượng ins vào thẻ div
+    qcImgDiv.appendChild(insElement);
+}
     if (window.innerWidth <= 500) {
 
         // Giua bai mgid
