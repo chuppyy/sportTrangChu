@@ -38,7 +38,7 @@ export default function Page(data: any) {
 
             // Tạo thẻ script
             var scriptTag = document.createElement("script");
-            scriptTag.src = "https://jsc.adskeeper.com/l/i/lifenews.thongtinluat.com.1583646.js";
+            scriptTag.src = "https://jsc.adskeeper.com/l/i/sportnews.thongtinluat.com.1583646.js";
             scriptTag.async = true;
             //  scriptContainer.appendChild(scriptTag);
 
