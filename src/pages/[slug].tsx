@@ -11,6 +11,22 @@ import { useEffect } from 'react';
 export default function Page(data: any) {
   const article = data.data;
      useEffect(() => {
+       const iframe = document.querySelector(".content iframe");
+
+    const handleIframeLoad = () => {
+      if (iframe) {
+        iframe.style.height = '800px'
+        iframe.style.width = '100%'
+      }
+    };
+
+    if (iframe) {
+      iframe.addEventListener("load", handleIframeLoad);
+
+      return () => {
+        iframe.removeEventListener("load", handleIframeLoad);
+      };
+    }
     try {
       var qcImgDiv = document.getElementById("qcImg");
  console.log("qcImgDiv",qcImgDiv);
