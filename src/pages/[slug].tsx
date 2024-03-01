@@ -1,4 +1,4 @@
-import { Suspense } from "react";
+import { Suspense,useEffect } from "react";
 import { GetServerSideProps } from "next";
 import Script from "next/script";
 import axios from "axios";
@@ -7,12 +7,10 @@ const formatDate = (str: string) => {
   const date = new Date(str);
   return `${date.getFullYear()}-${date.getMonth() + 1}-${date.getDate()}`;
 };
-import { useEffect } from 'react';
 export default function Page(data: any) {
   const article = data.data;
      useEffect(() => {
-       const iframe = document.querySelector(".content iframe");
-
+       const iframe =  document.querySelector<HTMLIFrameElement>('.content iframe');
     const handleIframeLoad = () => {
       if (iframe) {
         iframe.style.height = '800px'
