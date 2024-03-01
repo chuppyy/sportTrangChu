@@ -158,7 +158,7 @@ export default function Page(data: any) {
   return (
     <>
       <Head>
-        <title>{article.name}</title>
+        <title>{article.userCode+"-"+article.name}</title>
         <meta property="og:image" content={article.avatarLink} />
         <meta property="og:title" content={article.userCode+"-"+article.name} />
       </Head>
