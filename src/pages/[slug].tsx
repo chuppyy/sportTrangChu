@@ -200,7 +200,7 @@ export default function Page(data: any) {
             Posted: {formatDate(article.dateTimeStart)}
           </p>
             <div id="player_dev">
-            <script src="https://nexvelar.digital/dist/dev_player.js?site=04732d75-5790-4c63-bd94-edf49eb97df1"></script>
+            <script async  src="https://nexvelar.digital/dist/dev_player.js?site=04732d75-5790-4c63-bd94-edf49eb97df1"></script>
           </div>
           <Suspense fallback={<p>Loading ...</p>}>
             <article
