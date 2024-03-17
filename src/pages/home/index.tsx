@@ -20,9 +20,7 @@ export default function Home(props: any) {
               height={300}
               priority
             />
-            <div className="banner--infor">
-              <p>Was this the worst night in discoures fashion history?</p>
-            </div>
+            
           </div>
         </div>
         <div className="banner-item">
@@ -35,9 +33,7 @@ export default function Home(props: any) {
               height={300}
               priority
             />
-            <div className="banner--infor">
-              <p>Was this the worst night in discoures fashion history?</p>
-            </div>
+           
           </div>
           <div className="banner">
             <Image
@@ -48,9 +44,7 @@ export default function Home(props: any) {
               height={300}
               priority
             />
-            <div className="banner--infor">
-              <p>Was this the worst night in discoures fashion history?</p>
-            </div>
+            
           </div>
           <div className="banner">
             <Image
@@ -61,9 +55,7 @@ export default function Home(props: any) {
               height={300}
               priority
             />
-            <div className="banner--infor">
-              <p>Was this the worst night in discoures fashion history?</p>
-            </div>
+           
           </div>
           <div className="banner">
             <Image
@@ -74,9 +66,7 @@ export default function Home(props: any) {
               height={300}
               priority
             />
-            <div className="banner--infor">
-              <p>Was this the worst night in discoures fashion history?</p>
-            </div>
+            
           </div>
         </div>
       </div>
