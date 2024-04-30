@@ -59,7 +59,6 @@ export default function Page(data: any) {
      if (window.innerWidth <= 500) {
 
         // Giua bai mgid
-
         // Chọn thẻ div có ID "qc"
         var qcDiv = document.getElementById("qcmgidgb");
         if(qcDiv){
